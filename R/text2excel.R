@@ -16,7 +16,7 @@
 #'
 #' @param txtfile_dir plain text file from IPA output
 #'
-#' @return
+#' @return no return value, only output of excel table written
 #' @export
 #'
 #' @examples
