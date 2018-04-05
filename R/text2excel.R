@@ -12,13 +12,14 @@
 #
 
 
+
 #' Title
 #'
 #' @param txtfile_dir plain text file from IPA output
 #'
 #' @return no return value, only output of excel table written
 #' @export
-#'
+#' @importFrom xlsx write.xlsx
 #' @examples
 textresult2excel_IPA = function(txtfile_dir){
   options(java.parameters = "-Xmx4096m")  ## memory set to 2 GB
