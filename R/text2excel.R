@@ -21,6 +21,7 @@
 #' @export
 #' @importFrom xlsx write.xlsx
 #' @examples
+#' x="my ipa directory"
 textresult2excel_IPA = function(txtfile_dir){
   options(java.parameters = "-Xmx4096m")  ## memory set to 2 GB
   path_to_file = dirname(txtfile_dir)
